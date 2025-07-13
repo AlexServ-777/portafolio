@@ -30,17 +30,17 @@
 }
 
 .proyectos div{
-  cursor: pointer;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
-  flex: 1;
   color: white;
   transition: transform 0.3s ease;
 }
 .proyectos div:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 .proyectos img{
+  cursor: pointer;
+  height: auto;
   width: 100%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
