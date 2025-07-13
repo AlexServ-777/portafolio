@@ -93,7 +93,7 @@ export default function Home() {
               </section>
             </div>
             <div className="col-6">
-              <img src={'/portafolio.png'} onClick={(() => window.open(''))} />
+              <img src={'/portafolio.png'} onClick={(() => window.open('https://portafolio-alex-eight.vercel.app/'))} />
               <section className="p-3">
                 <h3>Pagina de Portafolio</h3>
                 <p>Pagina para ver mi portafolio, y toda mi informacion de contacto y reclutamiento.</p>
