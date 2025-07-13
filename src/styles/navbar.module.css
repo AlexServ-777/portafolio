@@ -1,0 +1,22 @@
+.navbar{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+.indexs span{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.indexs span:hover{
+    transform: scale(1.1);
+}
+
+.indexs a:hover{
+    color: aquamarine;
+}

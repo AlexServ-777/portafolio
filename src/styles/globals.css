@@ -1,0 +1,31 @@
+html, body{
+  min-height: 100vh;
+}
+body{
+  background: linear-gradient(100deg,#030918,#0f2f76);
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #0c255e;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #030918;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #11388e;
+}
+
+.imagePerfil{
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.imagePerfil.show{
+  opacity: 1;
+}
