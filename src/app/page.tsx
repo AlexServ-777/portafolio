@@ -103,7 +103,7 @@ export default function Home() {
               </section>
             </div>
             <div className="col-6">
-              <img src={'/fondoSimple.jpg'} onClick={(() => window.open(''))} style={{ width: '100%', height: 'auto' }} />
+              <img src={'/fondoSimple.jpg'} onClick={(() => window.open('https://portafolio-alex.vercel.app'))} style={{ width: '100%', height: 'auto' }} />
               <section className="p-3">
                 <h3>Pagina de Streaming</h3>
                 <p>En construccion</p>

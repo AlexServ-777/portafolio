@@ -18,16 +18,16 @@ export default function NavBar({ homeRef, sobreRef, proyectosRef, contactoRef }:
             <h2 className="fw-bold text-white">Alex</h2>
         </div>
         <div className={`col-4 d-flex gap-3 justify-content-center ${styles.indexs}`}>
-            <span onClick={(e) => {
+            <span onClick={() => {
               homeRef.current?.scrollIntoView({ behavior: 'smooth' });
             }}>Inicio</span>
-            <span onClick={(e) => {
+            <span onClick={() => {
               sobreRef.current?.scrollIntoView({ behavior: 'smooth' });
             }}>Sobre Mi</span>
-            <span onClick={(e) => {
+            <span onClick={() => {
               proyectosRef.current?.scrollIntoView({ behavior: 'smooth' });
             }}>Proyectos</span>
-            <span  onClick={(e) => {
+            <span  onClick={() => {
               contactoRef.current?.scrollIntoView({ behavior: 'smooth' });
             }}>Contacto</span>
         </div>
